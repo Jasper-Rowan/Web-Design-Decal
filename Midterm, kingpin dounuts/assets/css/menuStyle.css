@@ -1,0 +1,68 @@
+html, body {
+	height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* The image used */
+background-image: url("https://cutewallpaper.org/21/dunkin-donuts-wallpaper/Aesthetic-Donuts-Wallpapers-Top-Free-Aesthetic-Donuts-.jpg");
+
+/* Full height */
+height: 100%; 
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#content {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar-item {
+    margin: 20px 36px;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-item a:hover {
+    text-decoration: underline;
+}
+
+#outterMenuItemContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#innerMenuItemContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2% 1%;
+}
+
+.menuItem {
+    color: white;
+    font-size: 24px;
+    margin: 3% 0;
+}
